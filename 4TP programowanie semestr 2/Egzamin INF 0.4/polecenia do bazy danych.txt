@@ -1,0 +1,16 @@
+CREATE DATABASE personDate;
+
+    
+CREATE TABLE person (
+    id int not null AUTO_INCREMENT,
+    number VARCHAR(999),
+    name varchar(30),
+    lastname varchar(30),
+    colorEyes varchar(10),
+    personImage varchar(50),
+    fingerImage varchar(50),
+    PRIMARY KEY(id)
+);
+
+INSERT INTO person (number, name, lastname, colorEyes, personImage, fingerImage)
+VALUES ('1', 'Jan', 'Kowalski', 'piwne', 'face/twarz1.png', 'finger/finger1.png');
